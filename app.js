@@ -41,6 +41,7 @@ const dateBtn = document.getElementById('date')
 const timeBtn = document.getElementById('time')
 
 setInterval(update, 1000)
+update()
 
 function switchMode (name) {
     mode = name
